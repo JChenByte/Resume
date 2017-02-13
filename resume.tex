@@ -19,8 +19,9 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, letterpaper]{awesome-cv}
 
+
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.2cm, top=.8cm, right=1.2cm, bottom=0cm, footskip=.5cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -30,7 +31,7 @@
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
 % \colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
-\definecolor{awesome}{HTML}{03a6ff}
+
 
 % Colors for text
 % Uncomment if you would like to specify your own color
@@ -53,20 +54,20 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 \name{Jie}{Chen}
-\position{Undergraduate At University of Maryland - College Park}
 \address{530 Bradford Dr, Rockville, MD 20850}
 
-\mobile{(+1) 240-515-6431} 
+\mobile{+1 301 250 5046} 
 \email{jie@umd.edu}
+\homepage{jchenbyte.com}
 \github{GitHub.com/JChenByte}
-\linkedin{LinkedIn.com/JChenByte}
+\linkedin{LinkedIn.com/in/JChenByte}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
 % \skype{skype-id}
 % \reddit{reddit-id}
 % \extrainfo{extra informations}
 
-\quote{"if(!today.isCompilable())\{ debug(today); recompile(today); \}"}
+%\quote{"if(!today.isCompilable())\{ debug(today); recompile(today); \}"}
 
 
 %-------------------------------------------------------------------------------
@@ -78,9 +79,11 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {Rev: \today}
-  {Jie Chen~~~·~~~Résumé~~~·~~~GitHub.com/JChenByte}
-  {\thepage/2}
+  {}
+  {}
+{}
+
+  %{\thepage/2}
 
 
 %-------------------------------------------------------------------------------
@@ -89,12 +92,13 @@
 %-------------------------------------------------------------------------------
 % \input{resume/summary.tex}
 \input{resume/education.tex}
-\input{resume/experience.tex}
 \input{resume/knowledge.tex}
+\input{resume/experience.tex}
 \input{resume/projects.tex}
-\input{resume/extracurricular.tex}
+\input{resume/courses.tex}
 \input{resume/honors.tex}
-\input{resume/papers.tex}
+\input{resume/extracurricular.tex}
+%\input{resume/papers.tex}
 %\input{resume/committees.tex}
 
 

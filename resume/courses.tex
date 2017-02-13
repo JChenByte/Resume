@@ -1,0 +1,38 @@
+%inlineitem
+\makeatletter
+\newcommand{\inlineitem}[1][]{%
+\ifnum\enit@type=\tw@
+    {\descriptionlabel{#1}}
+  \hspace{\labelsep}%
+\else
+  \ifnum\enit@type=\z@
+       \refstepcounter{\@listctr}\fi
+    \quad\@itemlabel\hspace{\labelsep}%
+\fi}
+\makeatother
+
+
+\cvsection{Relevant Courses  / Bootcamp}
+
+\begin{cvcourse}
+
+\cvcourses
+{Computer Science}
+
+\cvcoursesitem{
+\begin{itemize}
+  \item CMSC351 | Algorithms (Current)
+  \inlineitem CMSC330 | Organization of Programming Languages (Current)
+\end{itemize}}
+
+\cvcoursesitem{
+\begin{itemize}
+  \item CMSC250 | Discrete Structures
+  \inlineitem CMSC216 | Introduction to Computer Systems
+  \inlineitem Cybrary
+  \inlineitem  DDOS Protection Bootcamp
+\end{itemize}}
+
+
+\end{cvcourse}
+

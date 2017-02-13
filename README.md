@@ -1,10 +1,9 @@
 # Jie Chen's Resume - Written in LaTeX.
 
 
-![resume-1.png](https://raw.githubusercontent.com/JChenByte/Resume/master/resume-1.png)
+![resume-1.png](https://raw.githubusercontent.com/JChenByte/Resume/master/resume.png)
 
-![resume-2.png](https://raw.githubusercontent.com/JChenByte/Resume/master/resume-2.png)
-Last updated on August 1, 2016.
+Last updated on February 12, 2017.
 
 ## Credits
 
